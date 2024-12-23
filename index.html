@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eCream - Real Ice Cream for real ice cream lovers. Explore our exceptional flavors made with passion and creativity.">
+    <title>Ice Cream Shop Landing Page</title>
+    <style>
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color: #2c3e50;
+          color: #fff;
+          line-height: 1.6;
+      }
+
+      header {
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #34495e;
+      }
+
+      .logo {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: #9b59b6;
+      }
+
+      nav a {
+          margin: 0 15px;
+          text-decoration: none;
+          color: #fff;
+          font-size: 1rem;
+          transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+          color: #9b59b6;
+      }
+
+      .hero {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          padding: 50px;
+          text-align: center;
+      }
+
+      .hero .text {
+          max-width: 50%;
+          text-align: left;
+      }
+
+      .hero h1 {
+          font-size: 3rem;
+          margin-bottom: 20px;
+      }
+
+      .hero p {
+          font-size: 1.2rem;
+          margin-bottom: 20px;
+      }
+
+      .hero button {
+          margin-right: 10px;
+          padding: 10px 20px;
+          font-size: 1rem;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+
+      .buy-online {
+          background-color: #9b59b6;
+          color: #fff;
+      }
+
+      .buy-online:hover {
+          background-color: #8e44ad;
+      }
+
+      .find-in-store {
+          background-color: #34495e;
+          color: #fff;
+      }
+
+      .find-in-store:hover {
+          background-color: #2c3e50;
+      }
+
+      .hero img {
+          max-width: 40%;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .products {
+          padding: 50px;
+          text-align: center;
+          background-color: #34495e;
+      }
+
+      .products h2 {
+          font-size: 2rem;
+          margin-bottom: 20px;
+      }
+
+      .products p {
+          max-width: 800px;
+          margin: 0 auto 30px;
+          font-size: 1.1rem;
+      }
+
+      .flavors {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+      }
+
+      .flavor {
+          background-color: #2c3e50;
+          padding: 20px;
+          border-radius: 10px;
+          max-width: 300px;
+          text-align: center;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: transform 0.3s ease;
+      }
+
+      .flavor:hover {
+          transform: translateY(-10px);
+      }
+
+      .flavor img {
+          max-width: 100%;
+          border-radius: 10px;
+          margin-bottom: 10px;
+      }
+
+      .flavor h3 {
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+      }
+
+      .flavor p {
+          font-size: 1.1rem;
+          margin-bottom: 15px;
+      }
+
+      .flavor button {
+          padding: 10px 20px;
+          background-color: #9b59b6;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+
+      .flavor button:hover {
+          background-color: #8e44ad;
+      }
+
+      footer {
+          padding: 20px;
+          text-align: center;
+          background-color: #2c3e50;
+          color: #fff;
+          margin-top: 50px;
+      }
+
+      footer p {
+          font-size: 0.9rem;
+      }
+
+      footer a {
+          color: #9b59b6;
+          text-decoration: none;
+      }
+
+      footer a:hover {
+          text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">eCream</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="text">
+            <h1>Real Ice Cream for Real Ice Cream Lovers</h1>
+            <p>Sweet ice cream for pleasure seekers.</p>
+            <button class="buy-online">Buy Online</button>
+            <button class="find-in-store">Find in Store</button>
+        </div>
+        <img src="Dhruv_Garg.jpg" alt="A person enjoying ice cream">
+    </section>
+
+    <section id="products" class="products">
+        <h2>We Pride Ourselves On Exceptional Flavors</h2>
+        <p>The nearly -200°C (-328°F) liquid freezes the ingredients—sweet cream, flavoring, and handpicked mix-ins—almost instantly, creating tiny ice crystals and a smooth texture.</p>
+        <div class="flavors">
+            <div class="flavor">
+                <img src="ice_cream_honey.jpg" alt="Ice Cream Honey">
+                <h3>Ice Cream Honey</h3>
+                <p>$7</p>
+                <button>BUY</button>
+            </div>
+            <div class="flavor">
+                <img src="choco_delight.jpg" alt="Choco Delight">
+                <h3>Choco Delight</h3>
+                <p>$5</p>
+                <button>BUY</button>
+            </div>
+            <div class="flavor">
+                <img src="carnival_strawberry.jpg" alt="Carnival Strawberry">
+                <h3>Carnival Strawberry</h3>
+                <p>$15</p>
+                <button>BUY</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 eCream. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
